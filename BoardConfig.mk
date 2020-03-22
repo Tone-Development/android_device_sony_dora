@@ -26,6 +26,9 @@ TARGET_OTA_ASSERT_DEVICE := dora
 # Kernel
 TARGET_KERNEL_CONFIG := dora_defconfig
 
+# WiFi
+WIFI_BUS := PCIE
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
