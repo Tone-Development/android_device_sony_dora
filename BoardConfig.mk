@@ -26,6 +26,9 @@ TARGET_OTA_ASSERT_DEVICE := dora
 # BCM BT
 BOARD_HAVE_BLUETOOTH_BCM := true
 
+# BCM FM
+BOARD_HAVE_BCM_FM := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := dora_defconfig
 
