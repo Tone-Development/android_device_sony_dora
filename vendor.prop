@@ -1,1 +1,4 @@
+# Fingerprint
+persist.qfp=false
+
 ro.config.product=dora
