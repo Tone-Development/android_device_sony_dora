@@ -23,6 +23,9 @@ DEVICE_PATH := device/sony/dora
 # Assert
 TARGET_OTA_ASSERT_DEVICE := dora
 
+# BCM BT
+BOARD_HAVE_BLUETOOTH_BCM := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := dora_defconfig
 
