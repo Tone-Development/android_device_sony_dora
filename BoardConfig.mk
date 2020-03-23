@@ -29,6 +29,9 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 # BCM FM
 BOARD_HAVE_BCM_FM := true
 
+# DT2W sysfs node
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+
 # Kernel
 TARGET_KERNEL_CONFIG := dora_defconfig
 
