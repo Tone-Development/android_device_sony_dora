@@ -32,6 +32,10 @@ BOARD_HAVE_BCM_FM := true
 # Kernel
 TARGET_KERNEL_CONFIG := dora_defconfig
 
+# NFC
+NXP_CHIP_TYPE := PN547C2
+NXP_CHIP_FW_TYPE := PN547C2
+
 # WiFi
 WIFI_BUS := PCIE
 
